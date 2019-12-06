@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "JGD. this script is from github"
+echo "JGD.JGD. this script is from github"
 NUMBER=$(($NUMBERONE + $NUMBERTWO))
 echo "$NUMBER"
 
-echo "SGD.this was run automagically"
+echo "SGD.SGD.this was run automagically"
