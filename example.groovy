@@ -1,4 +1,6 @@
 import emails
 
 e = new emails()
-println (e.mails.get("Michael"))
+for(mail in e.mails){
+println mail.value
+}
