@@ -1,4 +1,9 @@
 import emails
 
 e = new emails()
-println mail.containsKey('Michael')
+for(mail in e.mails){
+ if(mail.key == 'Michael'){
+	println mail.value
+ }
+}
+
