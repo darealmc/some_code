@@ -1,4 +1,7 @@
 import emails
 
 e = new emails()
-println e.mm
+for(i in e){
+  println i
+}
+
