@@ -1,8 +1,8 @@
 import emails
 
 e = new emails()
-for(i in e.mails){
-  println i.key
-  println i.value
+for(mail in e.mails){
+  println mail.key
+  println mail.value
 }
 
