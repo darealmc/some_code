@@ -1,2 +1,2 @@
 echo "printlatestfile"
-echo "triggered file"
+echo "triggered file1"
