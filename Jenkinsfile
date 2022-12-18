@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  trigger('SomeTrigger') {
+    cron('H/5 * * * *')
+  }
   stages {
     stage('Echo') {
       steps {
